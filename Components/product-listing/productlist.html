@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://amazing-kowalevski-11b361.netlify.app/root.css">
+    <link rel="stylesheet" href="./productlist.css" />
+    <title>Product List</title>
+</head>
+
+<body>
+
+    <div class="product-container">
+
+        <header>
+            <div class="ecom-header">
+                <div class="icon-container">
+                    <a class="img-link" href="../../index.html"><span>
+                            <img class="icon" src="../../images/jpeg/headicon.png" alt="" /></a>
+                    </span>
+                </div>
+
+                <div class="ecom-nav">
+                    <a href="../../index.html" class="nav-link">Home</a>
+                    <a href="./productlist.html" class="nav-link">Men</a>
+                    <a href="./productlist.html" class="nav-link">Women</a>
+                    <a href="./productlist.html" class="nav-link">Beauty</a>
+                </div>
+
+
+                <div class="search-bar">
+                    <input class="search" placeholder="Search for brands" type="text" name="search" />
+                    <img class="search-icon product-search" src="../../images/jpeg/search.png" alt="search" />
+                </div>
+
+                <div class="socials-ecom">
+                    <span><a href="../authentication/login/login.html"><img src='../../images/jpeg/user.png'
+                                class="social-icons" /></a></span>
+                    <span><a href="../wishlist/wishlist.html"><img src='../../images/jpeg/heart.png'
+                                class="social-icons" /></a></span>
+                    <span><a href="../cart/cart.html">
+                            <img src='../../images/jpeg/shopping-bag.png' class="social-icons" /></span>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+
+        <div class="parts">
+            <div class="parts-1">
+                <div class="head-title">
+                    <h2 class="filter">Filter</h2>
+                    <p class="clear">Clear All</p>
+                </div>
+                <div class="range-slide">
+                    <h3 class="price">Price</h3>
+                    <input class="slider" type="range" min="1" max="100" value="50">
+                </div>
+                <div class="category">
+                    <h3 class="price">Category</h3>
+                    <div class="checks-ecom">
+
+                        <div class="form-group">
+                            <input type="checkbox" class="form-input" id="pro0" />
+                            <span class="check-style"></span>
+                            <label class="form-label" for="pro0">topwear</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="checkbox" class="form-input" id="pro1" />
+                            <span class="check-style"></span>
+                            <label class="form-label" for="pro1">bottomwear</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="checkbox" class="form-input" id="pro2" />
+                            <span class="check-style"></span>
+                            <label class="form-label" for="pro2">undergarments</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="checkbox" class="form-input" id="pro3" />
+                            <span class="check-style"></span>
+                            <label class="form-label" for="pro3">models</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="checkbox" class="form-input" id="pro4" />
+                            <span class="check-style"></span>
+                            <label class="form-label" for="pro4">jackets</label>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="ratings">
+                    <h3 class="price">Ratings</h3>
+                    <div class="radio-ecom">
+
+                        <div class="form-group">
+                            <input type="radio" class="form-input" id="pro4" />
+                            <span class="radio-style"></span>
+                            <label class="form-label" for="pro4">4 stars & above</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="radio" class="form-input" id="pro5" />
+                            <span class="radio-style"></span>
+                            <label class="form-label" for="pro5">3 stars & above</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="radio" class="form-input" id="pro6" />
+                            <span class="radio-style"></span>
+                            <label class="form-label" for="pro6">2 stars & above</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="radio" class="form-input" id="pro7" />
+                            <span class="radio-style"></span>
+                            <label class="form-label" for="pro7">1 stars & above</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="sortby">
+                    <h3 class="price">Sortby</h3>
+                    <div class="sortby-ecom">
+
+                        <div class="form-group">
+                            <input type="radio" class="form-input" id="pro8" />
+                            <span class="radio-style"></span>
+                            <label class="form-label" for="pro8">price - low to high</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="radio" class="form-input" id="pro9" />
+                            <span class="radio-style"></span>
+                            <label class="form-label" for="pro9">price - high to low</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="parts-2">
+                <h2 class="part-2-head">Showing All Product</h2>
+
+                <div class="products">
+
+                    <div class="product-card0 ecom-card0">
+                        <div class="img-container-product0 ecom-p0">
+                            <img class="p-img0" alt="" src="../../images/jpeg/leather.jpg">
+                            <div class="badge0">
+                                <p class="sale">Sale</p>
+                            </div>
+                        </div>
+                        <div class="card-content-product0">
+                            <h3 class="title0">Blazer</h3>
+                            <p class="price-p0">€ 2000</p>
+                            <button class="btn-product0 ecom-btn-cart">Add To Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card0 ecom-card0">
+                        <div class="img-container-product0 ecom-p0">
+                            <img class="p-img0" alt="" src="../../images/jpeg/leather.jpg">
+                            <div class="badge0">
+                                <p class="sale">Sale</p>
+                            </div>
+                        </div>
+                        <div class="card-content-product0">
+                            <h3 class="title0">Blazer</h3>
+                            <p class="price-p0">€ 2000</p>
+                            <button class="btn-product0 ecom-btn-cart">Add To Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card0 ecom-card0">
+                        <div class="img-container-product0 ecom-p0">
+                            <img class="p-img0" alt="" src="../../images/jpeg/leather.jpg">
+                            <div class="badge0">
+                                <p class="sale">Sale</p>
+                            </div>
+                        </div>
+                        <div class="card-content-product0">
+                            <h3 class="title0">Blazer</h3>
+                            <p class="price-p0">€ 2000</p>
+                            <button class="btn-product0 ecom-btn-cart">Add To Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card0 ecom-card0">
+                        <div class="img-container-product0 ecom-p0">
+                            <img class="p-img0" alt="" src="../../images/jpeg/leather.jpg">
+                            <div class="badge0">
+                                <p class="sale">Sale</p>
+                            </div>
+                        </div>
+                        <div class="card-content-product0">
+                            <h3 class="title0">Blazer</h3>
+                            <p class="price-p0">€ 2000</p>
+                            <button class="btn-product0 ecom-btn-cart">Add To Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card0 ecom-card0">
+                        <div class="img-container-product0 ecom-p0">
+                            <img class="p-img0" alt="" src="../../images/jpeg/leather.jpg">
+                            <div class="badge0">
+                                <p class="sale">Sale</p>
+                            </div>
+                        </div>
+                        <div class="card-content-product0">
+                            <h3 class="title0">Blazer</h3>
+                            <p class="price-p0">€ 2000</p>
+                            <button class="btn-product0 ecom-btn-cart">Add To Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card0 ecom-card0">
+                        <div class="img-container-product0 ecom-p0">
+                            <img class="p-img0" alt="" src="../../images/jpeg/leather.jpg">
+                            <div class="badge0">
+                                <p class="sale">Sale</p>
+                            </div>
+                        </div>
+                        <div class="card-content-product0">
+                            <h3 class="title0">Blazer</h3>
+                            <p class="price-p0">€ 2000</p>
+                            <button class="btn-product0 ecom-btn-cart">Add To Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card0 ecom-card0">
+                        <div class="img-container-product0 ecom-p0">
+                            <img class="p-img0" alt="" src="../../images/jpeg/leather.jpg">
+                            <div class="badge0">
+                                <p class="sale">Sale</p>
+                            </div>
+                        </div>
+                        <div class="card-content-product0">
+                            <h3 class="title0">Blazer</h3>
+                            <p class="price-p0">€ 2000</p>
+                            <button class="btn-product0 ecom-btn-cart">Add To Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card0 ecom-card0">
+                        <div class="img-container-product0 ecom-p0">
+                            <img class="p-img0" alt="" src="../../images/jpeg/leather.jpg">
+                            <div class="badge0">
+                                <p class="sale">Sale</p>
+                            </div>
+                        </div>
+                        <div class="card-content-product0">
+                            <h3 class="title0">Blazer</h3>
+                            <p class="price-p0">€ 2000</p>
+                            <button class="btn-product0 ecom-btn-cart">Add To Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card0 ecom-card0">
+                        <div class="img-container-product0 ecom-p0">
+                            <img class="p-img0" alt="" src="../../images/jpeg/leather.jpg">
+                            <div class="badge0">
+                                <p class="sale">Sale</p>
+                            </div>
+                        </div>
+                        <div class="card-content-product0">
+                            <h3 class="title0">Blazer</h3>
+                            <p class="price-p0">€ 2000</p>
+                            <button class="btn-product0 ecom-btn-cart">Add To Cart</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
