@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://amazing-kowalevski-11b361.netlify.app/root.css">
+
+    <link rel="stylesheet" href="./signup.css" />
+    <title>Signup form</title>
+</head>
+
+<body>
+    <div class="signup-container">
+        <header>
+            <div class="ecom-header">
+                <div class="icon-container">
+                    <a class="img-link" href="../../../index.html"><span>
+                            <img class="icon" src="../../../images/jpeg/headicon.png" alt="" /></a>
+                    </span>
+                </div>
+
+                <div class="ecom-nav">
+                    <a href="../../../index.html" class="nav-link">Home</a>
+                    <a href="../../product-listing/productlist.html" class="nav-link">Men</a>
+                    <a href="../../product-listing/productlist.html" class="nav-link">Women</a>
+                    <a href="../../product-listing/productlist.html" class="nav-link">Beauty</a>
+                </div>
+
+                <div class="search-bar">
+                    <input class="search" placeholder="Search for brands" type="text" name="search" />
+                    <img class="search-icon ecom-search" src="../../../images/jpeg/search.png" alt="search" />
+                </div>
+
+                <div class="socials-ecom">
+                    <span><a href="../login/login.html"><img src='../../../images/jpeg/user.png'
+                                class="social-icons" /></a></span>
+                    <span><a href="../../wishlist/wishlist.html"><img src='../../../images/jpeg/heart.png'
+                                class="social-icons" /></a></span>
+                    <span><a href="../../cart/cart.html">
+                            <img src='../../../images/jpeg/shopping-bag.png' class="social-icons" /></span>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+
+        <div class="forms">
+            <div class="single-input ecom-form">
+                <h3 class="head-form ecom-user">User Signup</h3>
+                <form id="my-form" onsubmit="">
+                    <div class="med">
+                        <label class="label ecom-label" for="name"> Name </label>
+                        <input required="" class="input" type="text" name="username">
+                    </div>
+                    <div class="med">
+                        <label class="label ecom-label" for="number"> Number </label>
+                        <input required="" class="input" type="tel" name="mobile">
+                        <img class="form-icon form-icon-warning ecom-warn" src="../../../images/svgs/error.svg"
+                            alt="number">
+                    </div>
+                    <div class="med login-btn-med">
+                        <button class="btn log-btn" type="submit" onclick="">Click</button>
+                        <span class="redirect-signup">
+                            <a class="ecom-login" href="../login/login.html">Already have an Account ></a>
+                        </span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
